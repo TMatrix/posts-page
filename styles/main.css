@@ -1,0 +1,73 @@
+.search-field{
+  text-align: center;
+  margin: 5px 10px;
+}
+
+.search-field span{
+  margin: 0 5px;
+  border: 1px solid rgb(224, 224, 224);
+  cursor: pointer;
+}
+
+.search-field .search-icon{
+  border: none;
+  position: relative;
+  left: -30px;
+  top: 2px;
+}
+
+.tags-list {
+  list-style: none;
+  margin:15px 5px;;
+  box-shadow: 0px 3px 7px rgb(167, 167, 167);
+  text-align: center;
+}
+
+.tags-list li {
+  display: inline-block;
+  margin: 2px 3px;
+  padding: 2px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.active{
+  border-radius: 3px;
+  background-color: rgb(1, 44, 46);
+  color:white;
+}
+
+.post{
+  background-color:rgb(242, 255, 242);
+  box-shadow: 0px 5px 10px rgb(167, 167, 167);
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 5px;
+}
+
+img{
+  float: left;
+  margin: 5px;
+}
+
+.description{
+  margin: 5px;
+}
+
+.createdAt {
+  font-size: 0.8em;
+  color: darkblue;
+  margin: 5px;
+}
+
+.tags {
+  font-size: 0.9em;
+  color: midnightblue;
+  margin:5px;
+}
