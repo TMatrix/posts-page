@@ -39,12 +39,26 @@
 }
 
 .post{
-  background-color:rgb(242, 255, 242);
+  background-color:rgb(243, 243, 243);
   box-shadow: 0px 5px 10px rgb(167, 167, 167);
   overflow: auto;
   margin-bottom: 10px;
 }
 
+.post button {
+  background: transparent;
+  color: rgb(167, 167, 167);
+  height: 30px;
+  width: 30px;
+  box-shadow: none;
+  border: none;
+  float: right;
+}
+
+
+.post button:hover {
+  color: red;
+}
 .title {
   font-weight: bold;
   font-size: 1.2em;
@@ -57,17 +71,19 @@ img{
 }
 
 .description{
-  margin: 5px;
+  margin: 15px;
 }
 
 .createdAt {
   font-size: 0.8em;
   color: darkblue;
-  margin: 5px;
+  margin-top:10px;
+  padding-right: 10px;
 }
 
 .tags {
   font-size: 0.9em;
   color: midnightblue;
-  margin:5px;
+  margin-top:10px;
+  padding-right: 10px;
 }
